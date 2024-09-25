@@ -20,7 +20,7 @@
             <img src="assets/svg/icons8-нетфликс.svg" alt="smth">
           </a>
           <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarHeader" aria-controls="navbarSupportedContent" aria-expanded="false"
+            data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -64,7 +64,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#main-collapse"
-                  aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  aria-expanded="true" aria-controls="main-collapse">
                   Mountains are majestic natural formations
                 </button>
               </h2>
@@ -79,7 +79,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#main-collapsetwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  data-bs-target="#main-collapsetwo" aria-expanded="false" aria-controls="main-collapsetwo">
                   Mountains are home to some of the most breathtaking landscapes on Earth.
                 </button>
               </h2>
@@ -95,8 +95,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#main-collapsethree" aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree">
+                  data-bs-target="#main-collapsethree" aria-expanded="false" aria-controls="main-collapsethree">
                   The rugged beauty of mountains has inspired explorers and adventurers for centuries.
                 </button>
               </h2>
@@ -113,8 +112,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#main-collapsefourth" aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree">
+                  data-bs-target="#main-collapsefourth" aria-expanded="false" aria-controls="main-collapsefourth">
                   Whether it's hiking through dense forests, climbing steep cliffs, or skiing down.
                 </button>
               </h2>
@@ -152,12 +150,14 @@
                 </datalist>
                 <div class="row g-3 mt-2">
                   <div class="col">
-                    <label for="first-name" class="form-label">First-name</label>
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    <label for="form-labelfirst" class="form-label">First-name</label>
+                    <input type="text" id="form-labelfirst" class="form-control" placeholder="First name"
+                      aria-label="First name">
                   </div>
                   <div class="col">
-                    <label for="last-name" class="form-label">Last-name</label>
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    <label for="form-labellast" class="form-label">Last-name</label>
+                    <input type="text" id="form-labellast" class="form-control" placeholder="Last name"
+                      aria-label="Last name">
                   </div>
                 </div>
                 <button type="submit" class="btn btn-success col-3 ms-1 mt-3 ">Send</button>
